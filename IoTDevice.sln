@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTDevice", "IoTDevice\IoTDevice.csproj", "{63CD02DE-AAE6-4279-AB10-AFDF52BBB8C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manifests", "manifests", "{0FA0D6D0-10A0-4F13-8A58-3D1A40F79237}"
+	ProjectSection(SolutionItems) = preProject
+		..\deployment.yml = ..\deployment.yml
+		..\service.yml = ..\service.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63CD02DE-AAE6-4279-AB10-AFDF52BBB8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CD02DE-AAE6-4279-AB10-AFDF52BBB8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CD02DE-AAE6-4279-AB10-AFDF52BBB8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CD02DE-AAE6-4279-AB10-AFDF52BBB8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4DCDBF-2139-455C-AE52-314A8A603C0A}
+	EndGlobalSection
+EndGlobal
